@@ -200,4 +200,8 @@ footer>p {
     body {
         background-size: auto 1000px;
     }
+
+}
+.container01-04 .item:nth-child(n+2) {
+    display: none !important;
 }
