@@ -231,4 +231,5 @@ newgamebtn.addEventListener("click", function () {
     setMessage("pen-turn");
     newgamebtn_display.classList.add("js-hidden");
     $(document).snowfall("clear");
+
 });
