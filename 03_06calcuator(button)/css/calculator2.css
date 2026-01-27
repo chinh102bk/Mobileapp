@@ -20,7 +20,7 @@ body {
   Meiryo,
   sans-serif;
   background: #EEEEEE;
-  overflow: hidden;
+  overflow-x: hidden;
 }
 /*******************************************************/
 /* ヘッダー                                             */
@@ -137,4 +137,5 @@ footer> p {
   font-size: 1.5em;
   background: rgb(26, 212, 212);
   cursor: pointer; /*カーソルをポインターの形（かたち）にする*/
+
 }
