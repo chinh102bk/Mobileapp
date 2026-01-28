@@ -68,7 +68,7 @@ header {
     padding: 40px 0;
 }
 
-.messsage-container {
+.message-container {
     margin-bottom: 20px;
     font-size: 2em;
     font-weight: bold;
@@ -188,5 +188,6 @@ footer>p {
     .btn-container {
         padding-top: 2px;
     }
+
 
 }
