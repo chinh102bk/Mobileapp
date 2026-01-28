@@ -41,14 +41,12 @@ const msgtxt1 =
 const msgtxt2 =
     '<p class="image"><img src="img/whitebear.jpg" width=61px height=61px></p><p class="text">WhiteBear Attack!</p>';
 
-const msgtxt3 =
-  '<p class="image"><img src="img/penguins.jpg" width="61" height="61"></p><p class="text animate__animated animate__lightSpeedInRight">Penguins Win!!</p>';
+const msgtxt3 = '<p class="image"><img src="img/penguins.jpg" width="61px" height="61px"></p><p class="text animate__animated animate__lightSpeedInRight">Penguins Win!!</p>';
 
-const msgtxt4 =
-  '<p class="image"><img src="img/whitebear.jpg" width="61" height="61"></p><p class="text animate__animated animate__lightSpeedInLeft">WhiteBear Win!!</p>';
+const msgtxt4 = '<p class="image"><img src="img/whitebear.jpg" width="61px" height="61px"></p><p class="text animate__animated animate__lightSpeedInLeft">WhiteBear Win!!</p>';
 
-const msgtxt5 =
-  '<p class="image"><img src="img/penguins.jpg" width="61" height="61"><img src="img/whitebear.jpg" width="61" height="61"></p><p class="text animate__animated animate__bounceIn">Draw!!</p>';
+const msgtxt5 = '<p class="image"><img src="img/penguins.jpg" width="61px" height="61px"><img src="img/whitebear.jpg" width="61px" height="61px"></p><p class="text animate__animated animate__bounceIn">Draw!!</p>';
+
 
 let gameSound = ["sound/click_sound1.mp3", "sound/click_sound2.mp3", "sound/penwin_sound.mp3", "sound/bearwin_sound.mp3", "sound/draw_sound.mp3"];
 function JudgLine(targetArray, idArray) {
@@ -239,4 +237,5 @@ newgamebtn.addEventListener("click", function () {
     $(document).snowfall("clear");
 
 });
+
 
