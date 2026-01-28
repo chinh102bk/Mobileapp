@@ -146,15 +146,31 @@ footer> p {
 	}
 
 }
-.back{
-    text-align: left;
+.back {
+  position: fixed;      
+  top: 10px;           
+  left: 10px;          
+  z-index: 99999;       
 }
-#btn99{
-padding: 0.5em;
-border-radius: 0.3em;
-color: whitesmoke;
-font-size: 1.5em;
-background: rgb(26, 212, 212);
-cursor: pointer; /*カーソルをポインターの形（かたち）にする*/
+
+#btn99 {
+  padding: 0.5em 1em;
+  border-radius: 0.3em;
+  color: whitesmoke;
+  font-size: 1.5em;
+  background: rgb(26, 212, 212);
+  border: none;
+  cursor: pointer;
+  transition: 0.3s;
 }
+
+/* hover + click effect */
+#btn99:hover {
+  background: rgb(0, 180, 255);
+}
+
+#btn99:active {
+  transform: translateY(2px);
+}
+
 
